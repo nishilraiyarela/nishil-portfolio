@@ -100,8 +100,8 @@ const Header = () => {
       <div className="pointer-events-auto flex items-center gap-4 md:gap-6">
         {/* UPDATED CV Download Button with Border */}
         <a 
-          href="/Nishil_ProfessionalResume.pdf" 
-          download="Nishil_ProfessionalResume.pdf"
+          href="/Nishil_ProfessionalResume_.pdf" 
+          download="Nishil_ProfessionalResume_.pdf"
           className="group flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-zinc-800/40 bg-zinc-950/20 backdrop-blur-2xl hover:border-zinc-700 hover:bg-zinc-800/40 transition-all duration-300"
         >
           <span className="text-[9px] uppercase tracking-[0.25em] font-bold text-zinc-400 group-hover:text-white leading-none">CV</span>
@@ -201,10 +201,10 @@ export default function Home() {
               </p>
               
               <div className="pt-6 flex items-center gap-8">
-                <a href="/Nishil_ProfessionalResume.pdf" target="_blank" rel="noopener noreferrer" download="Nishil_ProfessionalResume.pdf" className="group relative flex items-center gap-4 py-2">
+                <a href="/Nishil_ProfessionalResume__.pdf" target="_blank" rel="noopener noreferrer" download="Nishil_ProfessionalResume_.pdf" className="group relative flex items-center gap-4 py-2">
                   <div className="flex flex-col">
                     <span className="text-[10px] uppercase tracking-[0.4em] font-black text-zinc-500 group-hover:text-emerald-500 transition-colors">Curriculum Vitae</span>
-                    <span className="text-xs text-zinc-600 font-medium italic mt-1">Nishil_ProfessionalResume.pdf</span>
+                    <span className="text-xs text-zinc-600 font-medium italic mt-1">Nishil_ProfessionalResume_.pdf</span>
                   </div>
                   <div className="h-10 w-10 rounded-full border border-zinc-800 flex items-center justify-center group-hover:border-emerald-500 group-hover:bg-emerald-500/5 transition-all duration-500">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="text-zinc-500 group-hover:text-emerald-500 group-hover:translate-y-0.5 transition-all">
