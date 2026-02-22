@@ -72,7 +72,7 @@ export const PROJECTS_DATA = [
   id: 6,
   title: "Tiffin Treat – Offline Food Ordering App",
   category: "Android Development",
-  img: "https://youtube.com/shorts/RN6ryf8Gzvk",
+  img: "https://streamable.com/lpgiqn",
   thumbnail: "https://appinventiv.com/wp-content/uploads/2023/12/Unveiling-the-taste-of-success-in-food-delivery-app-development-%E2%80%93-3-business-case-studies.webp",
   github: "https://github.com/nishilraiyarela/Tiffin-Treat-Android-Java",
   description:

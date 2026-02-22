@@ -337,7 +337,20 @@ export default function Home() {
             {(() => {
               const url = selectedProject.img || "";
               
-              // 1. YouTube Handler (Supports Shorts and Standard videos)
+              // 1. Streamable Handler
+              if (url.includes("streamable.com")) {
+                const streamableId = url.split("/").pop();
+                return (
+                  <iframe
+                    src={`https://streamable.com/e/${streamableId}?autoplay=1&muted=1`}
+                    className="absolute inset-0 w-full h-full border-0"
+                    allow="autoplay; fullscreen"
+                    title="Streamable Video"
+                  ></iframe>
+                );
+              }
+
+              // 2. YouTube Handler
               if (url.includes("youtube.com") || url.includes("youtu.be")) {
                 const videoId = url.includes("v=") 
                   ? url.split("v=")[1]?.split("&")[0] 
@@ -354,7 +367,7 @@ export default function Home() {
                 );
               }
 
-              // 2. Direct Video Handler (.mp4, .webm, .ogg)
+              // 3. Direct Video Handler (.mp4, .webm, .ogg)
               if (url.match(/\.(mp4|webm|ogg)$/)) {
                 return (
                   <video
@@ -368,7 +381,7 @@ export default function Home() {
                 );
               }
 
-              // 3. Fallback: Standard Image
+              // 4. Fallback: Standard Image
               return (
                 <img 
                   src={url} 
