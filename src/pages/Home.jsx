@@ -6,10 +6,22 @@ import { PROJECTS_DATA } from "../data/projects";
 
 // --- Data ---
 const SKILLS = [
-  { category: "Languages", items: ["Java", "Kotlin", "Python", "JavaScript", "C#", "SQL", "C++", "PHP", "C"] },
-  { category: "Frameworks", items: ["Flutter", "ReactJS", "Node.js", "Express", ".NET", "Qt"] },
-  { category: "Mobile & Security", items: ["Android Studio", "Biometrics", "SQLite", "Firebase", "MVC"] },
-  { category: "Tools", items: ["Git", "Jira", "CI/CD", "Docker", "Linux", "Shell Scripting"] }
+  { 
+    category: "Languages", 
+    items: ["Kotlin", "TypeScript", "Java", "JavaScript", "SQL"] 
+  },
+  { 
+    category: "Mobile", 
+    items: ["React Native", "Android SDK", "Jetpack Compose", "Flutter"] 
+  },
+  { 
+    category: "Architecture & Data", 
+    items: ["GraphQL", "Apollo", "REST APIs", "MVVM", "Offline-first", "Firebase"] 
+  },
+  { 
+    category: "Tools & DevOps", 
+    items: ["Git", "GitHub Actions", "Fastlane", "Jira", "CI/CD", "Docker"] 
+  }
 ];
 
 const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/nishilraiyarela/nishil-assets/main/gallery";
@@ -196,62 +208,62 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 01. ABOUT */}
-      <section id="about" className="relative z-30 bg-zinc-950 px-6 md:px-20 pt-12 pb-24 border-t border-zinc-900/50">
-        <div className="max-w-7xl mx-auto flex flex-col items-center mb-14">
-          <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-zinc-500 opacity-40 mb-8">01 / About Me</span>
-          <h2 className="text-4xl md:text-7xl font-light tracking-tighter text-zinc-400 text-center leading-[1.1]">
-            Focused on <span className="italic text-white font-serif">reliable</span> software.
-          </h2>
-        </div>
+     {/* 01. ABOUT */}
+<section id="about" className="relative z-30 bg-zinc-950 px-6 md:px-20 pt-12 pb-24 border-t border-zinc-900/50">
+  <div className="max-w-7xl mx-auto flex flex-col items-center mb-14">
+    <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-zinc-500 opacity-40 mb-8">01 / About Me</span>
+    <h2 className="text-4xl md:text-7xl font-light tracking-tighter text-zinc-400 text-center leading-[1.1]">
+      Focused on <span className="italic text-white font-serif">reliable</span> software.
+    </h2>
+  </div>
 
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-          <div className="md:col-span-4 aspect-[4/5] overflow-hidden rounded-sm grayscale transition-all duration-1000 border border-zinc-900 shadow-xl">
-            <img
-              src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop"
-              className="w-full h-full object-cover opacity-40"
-              alt="Technical Abstract"
-            />
-          </div>
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+    <div className="md:col-span-4 aspect-[4/5] overflow-hidden rounded-sm grayscale transition-all duration-1000 border border-zinc-900 shadow-xl">
+      <img
+        src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop"
+        className="w-full h-full object-cover opacity-40"
+        alt="Technical Abstract"
+      />
+    </div>
 
-          <div className="md:col-span-8">
-            <div className="space-y-10 text-zinc-400 text-lg md:text-xl leading-relaxed">
-              <p>
-                I am a <span className="text-zinc-200">Software Developer</span> based in Toronto with a background in Computer Engineering and Software Systems Design.
-              </p>
+    <div className="md:col-span-8">
+      <div className="space-y-10 text-zinc-400 text-lg md:text-xl leading-relaxed">
+        <p>
+          I am a <span className="text-zinc-200">Mobile Developer</span> based in Toronto, currently part of the team at <span className="text-zinc-200">Shopify</span>.
+        </p>
 
-              <p className="text-zinc-500 text-base md:text-lg">
-                My professional journey includes 2 years of experience in full-stack and mobile development. At <span className="text-zinc-400">Mantra Softech</span>, I worked on biometric security features and cross-platform Flutter applications. I enjoy the process of solving technical problems whether it’s refining a database query or ensuring a mobile UI feels responsive across different devices.
-              </p>
+        <p className="text-zinc-500 text-base md:text-lg">
+          My journey started in India, where I spent a few years diving deep into Android and biometric systems. Since moving to Canada, I’ve focused on building mobile experiences that are both stable and easy to use. 
+        </p>
 
-              <p className="text-zinc-500 text-base md:text-lg">
-                I balance my industry experience with a solid academic foundation from Centennial College, focusing on building maintainable code and collaborating effectively within Agile teams.
-              </p>
+        <p className="text-zinc-500 text-base md:text-lg">
+          I enjoy the balance between solving complex technical logic and making sure the UI feels just right. For me, good software isn't just about the code... it's about building something that actually works when people need it.
+        </p>
 
-              <div className="pt-6 flex items-center gap-8">
-                <a
-                  href="/Nishil_ProfessionalResume__.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  download="Nishil_ProfessionalResume_.pdf"
-                  className="group relative flex items-center gap-4 py-2"
-                >
-                  <div className="flex flex-col">
-                    <span className="text-[10px] uppercase tracking-[0.4em] font-black text-zinc-500 group-hover:text-emerald-500 transition-colors">Curriculum Vitae</span>
-                    <span className="text-xs text-zinc-600 font-medium italic mt-1">Nishil_ProfessionalResume_.pdf</span>
-                  </div>
-                  <div className="h-10 w-10 rounded-full border border-zinc-800 flex items-center justify-center group-hover:border-emerald-500 group-hover:bg-emerald-500/5 transition-all duration-500">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="text-zinc-500 group-hover:text-emerald-500 group-hover:translate-y-0.5 transition-all">
-                      <path d="M7 13l5 5 5-5M12 18V6" />
-                    </svg>
-                  </div>
-                  <span className="absolute bottom-0 left-0 w-0 h-px bg-emerald-500 group-hover:w-full transition-all duration-700" />
-                </a>
-              </div>
+        <div className="pt-6 flex items-center gap-8">
+          <a
+            href="/Nishil_ProfessionalResume_.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Nishil_ProfessionalResume_.pdf"
+            className="group relative flex items-center gap-4 py-2"
+          >
+            <div className="flex flex-col">
+              <span className="text-[10px] uppercase tracking-[0.4em] font-black text-zinc-500 group-hover:text-emerald-500 transition-colors">Curriculum Vitae</span>
+              <span className="text-xs text-zinc-600 font-medium italic mt-1">Nishil_ProfessionalResume_.pdf</span>
             </div>
-          </div>
+            <div className="h-10 w-10 rounded-full border border-zinc-800 flex items-center justify-center group-hover:border-emerald-500 group-hover:bg-emerald-500/5 transition-all duration-500">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="text-zinc-500 group-hover:text-emerald-500 group-hover:translate-y-0.5 transition-all">
+                <path d="M7 13l5 5 5-5M12 18V6" />
+              </svg>
+            </div>
+            <span className="absolute bottom-0 left-0 w-0 h-px bg-emerald-500 group-hover:w-full transition-all duration-700" />
+          </a>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* 02. WORK - CAROUSEL */}
       <section id="work" className="relative z-30 bg-zinc-950 py-24 border-t border-zinc-900/50">
