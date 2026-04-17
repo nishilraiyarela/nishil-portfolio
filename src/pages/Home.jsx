@@ -208,10 +208,13 @@ export default function Home() {
         </div>
       </section>
 
-     {/* 01. ABOUT */}
+{/* 01. ABOUT */}
 <section id="about" className="relative z-30 bg-zinc-950 px-6 md:px-20 pt-12 pb-24 border-t border-zinc-900/50">
   <div className="max-w-7xl mx-auto flex flex-col items-center mb-14">
-    <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-zinc-500 opacity-40 mb-8">01 / About Me</span>
+    <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-zinc-500 opacity-40 mb-8">
+      01 / About Me
+    </span>
+
     <h2 className="text-4xl md:text-7xl font-light tracking-tighter text-zinc-400 text-center leading-[1.1]">
       Focused on <span className="italic text-white font-serif">reliable</span> software.
     </h2>
@@ -229,15 +232,29 @@ export default function Home() {
     <div className="md:col-span-8">
       <div className="space-y-10 text-zinc-400 text-lg md:text-xl leading-relaxed">
         <p>
-          I am a <span className="text-zinc-200">Mobile Developer</span> based in Toronto, currently part of the team at <span className="text-zinc-200">Shopify</span>.
+          Hi, I’m <span className="text-zinc-200">Nishil</span>, a{" "}
+          <span className="text-zinc-200">Mobile Developer</span> based in{" "}
+          <span className="text-zinc-200">Toronto</span>.
         </p>
 
         <p className="text-zinc-500 text-base md:text-lg">
-          My journey started in India, where I spent a few years diving deep into Android and biometric systems. Since moving to Canada, I’ve focused on building mobile experiences that are both stable and easy to use. 
+          I primarily specialize in Android and Flutter development, building
+          modern mobile applications with a strong focus on performance,
+          scalability, and user experience. Along the way, I’ve also worked
+          with iOS and React Native, adding to my understanding of the wider
+          mobile development landscape.
         </p>
 
         <p className="text-zinc-500 text-base md:text-lg">
-          I enjoy the balance between solving complex technical logic and making sure the UI feels just right. For me, good software isn't just about the code... it's about building something that actually works when people need it.
+          I enjoy transforming complex requirements into smooth and intuitive
+          mobile experiences. Whether it’s creating new features, improving app
+          performance, optimizing user flows, or maintaining reliable production
+          apps, I care about building software that is practical and dependable.
+        </p>
+
+        <p className="text-zinc-500 text-base md:text-lg">
+          For me, great software is not only about clean code. It is about
+          creating products that people enjoy using and can trust every day.
         </p>
 
         <div className="pt-6 flex items-center gap-8">
@@ -249,14 +266,29 @@ export default function Home() {
             className="group relative flex items-center gap-4 py-2"
           >
             <div className="flex flex-col">
-              <span className="text-[10px] uppercase tracking-[0.4em] font-black text-zinc-500 group-hover:text-emerald-500 transition-colors">Curriculum Vitae</span>
-              <span className="text-xs text-zinc-600 font-medium italic mt-1">Nishil_ProfessionalResume_.pdf</span>
+              <span className="text-[10px] uppercase tracking-[0.4em] font-black text-zinc-500 group-hover:text-emerald-500 transition-colors">
+                Curriculum Vitae
+              </span>
+
+              <span className="text-xs text-zinc-600 font-medium italic mt-1">
+                Nishil_ProfessionalResume_.pdf
+              </span>
             </div>
+
             <div className="h-10 w-10 rounded-full border border-zinc-800 flex items-center justify-center group-hover:border-emerald-500 group-hover:bg-emerald-500/5 transition-all duration-500">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="text-zinc-500 group-hover:text-emerald-500 group-hover:translate-y-0.5 transition-all">
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                className="text-zinc-500 group-hover:text-emerald-500 group-hover:translate-y-0.5 transition-all"
+              >
                 <path d="M7 13l5 5 5-5M12 18V6" />
               </svg>
             </div>
+
             <span className="absolute bottom-0 left-0 w-0 h-px bg-emerald-500 group-hover:w-full transition-all duration-700" />
           </a>
         </div>
