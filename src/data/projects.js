@@ -6,8 +6,8 @@ export const PROJECTS_DATA = [
     id: 1,
     title: "Storm Chaser Field Companion App",
     category: "Android Development",
-    img: null,
-    thumbnail: stormChaserImage,
+    img: "https://github.com/nishilraiyarela/Strom-Chaser-Appl/raw/master/docs/dashboard.png",
+    thumbnail: "https://github.com/nishilraiyarela/Strom-Chaser-Appl/raw/master/docs/dashboard.png",
     github: "https://github.com/nishilraiyarela/Strom-Chaser-Appl",
     description:
       "Built a native Android field companion app for storm chasers and outdoor adventurers to monitor live weather conditions, review 5-day forecasts, and document storm events in the field.\n\n" +
@@ -22,8 +22,8 @@ export const PROJECTS_DATA = [
     id: 2,
     title: "6ixBlock - Toronto Community Board App",
     category: "Android + Firebase Development",
-    img: null,
-    thumbnail: sixBlockImage,
+    img: "https://github.com/nishilraiyarela/6ixBlock/blob/main/docs/screenshots/dark-feed.png",
+    thumbnail: "https://github.com/nishilraiyarela/Strom-Chaser-Appl/raw/master/docs/dashboard.png",
     github: "https://github.com/nishilraiyarela/6ixBlock",
     description:
       "Built a Toronto-based native Android community board app where users can create location-tagged posts, browse nearby updates, comment, like, save posts, and view real-time activity notifications.\n\n" +
