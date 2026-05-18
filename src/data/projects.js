@@ -4,6 +4,37 @@ export const PROJECTS_DATA = [
 
   {
     id: 1,
+    title: "Storm Chaser Field Companion App",
+    category: "Android Development",
+    img: null,
+    thumbnail: stormChaserImage,
+    github: "https://github.com/nishilraiyarela/Strom-Chaser-Appl",
+    description:
+      "Built a native Android field companion app for storm chasers and outdoor adventurers to monitor live weather conditions, review 5-day forecasts, and document storm events in the field.\n\n" +
+      "Integrated Open-Meteo APIs with Retrofit and Coroutines to fetch location-based weather data, including temperature, wind speed, precipitation, forecast conditions, and dynamic weather codes.\n\n" +
+      "Implemented storm event logging with camera capture, GPS coordinates, notes, timestamps, FileProvider image handling, and local Room Database persistence.\n\n" +
+      "Added Google Maps visualization for saved storm observations using latitude and longitude markers, along with dark mode, pull-to-refresh, skeleton loading states, and weather-aware UI cards.\n\n" +
+      "Tech: Kotlin, XML, Android SDK, MVVM, Room, Retrofit, Google Maps SDK, Open-Meteo API, Coroutines, LiveData\n" +
+      "Expertise: Native Android development, API integration, local persistence, geolocation, camera workflows, map visualization, MVVM architecture",
+  },
+
+  {
+    id: 2,
+    title: "6ixBlock - Toronto Community Board App",
+    category: "Android + Firebase Development",
+    img: null,
+    thumbnail: sixBlockImage,
+    github: "https://github.com/nishilraiyarela/6ixBlock",
+    description:
+      "Built a Toronto-based native Android community board app where users can create location-tagged posts, browse nearby updates, comment, like, save posts, and view real-time activity notifications.\n\n" +
+      "Implemented MVVM architecture with clean separation across UI, domain, data, and core layers, using repository interfaces, use cases, domain models, Firebase integration, and Room-based local caching.\n\n" +
+      "Added Google Maps integration with category-based pins, Fused Location Provider support, light/dark mode, profile management, saved posts, drafts, and Firestore listeners for live feed, likes, comments, and notification badge updates.\n\n" +
+      "Tech: Kotlin, XML, Android SDK, Firebase Auth, Cloud Firestore, Room, Google Maps SDK, Fused Location Provider, MVVM\n" +
+      "Expertise: Native Android development, real-time Firebase data, location-aware apps, clean architecture, Room caching, map-based UX",
+ },
+
+  {
+    id: 3,
     title: "AI-Powered Waste Classification App",
     category: "AI + Android Development",
     img: "https://youtube.com/shorts/73etQHsTRS0",
@@ -17,7 +48,7 @@ export const PROJECTS_DATA = [
   },
 
   {
-    id: 2,
+    id: 4,
     title: "Biometric Apps",
     category: "Mobile Development",
     img: "https://www.dial4trade.com/uploaded_files/helpimgs/top-10-branded-fingerprint-scanners-in-india-2024-market-demand-price-list-buying-tips-d0e5824.jpg",
@@ -30,7 +61,7 @@ export const PROJECTS_DATA = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: "Hardware SDK Validation Tool",
     category: "Android Systems Engineering",
     img: "https://png.pngtree.com/element_our/png/20181205/valid-vector-icon-png_260889.jpg",
@@ -43,7 +74,7 @@ export const PROJECTS_DATA = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "Offline-First Tasks App",
     category: "Flutter Development",
     img: "https://miro.medium.com/v2/resize:fit:1200/1*xcthnemDZId_EUFEwQe4ZQ.jpeg",
@@ -56,7 +87,7 @@ export const PROJECTS_DATA = [
   },
 
   {
-    id: 5,
+    id: 7,
     title: "Event Management App",
     category: "Android Development",
     img: "https://www.airmeet.com/hub/wp-content/uploads/2025/01/Registration-and-Check-In-Management-1024x615.jpg",
@@ -69,16 +100,16 @@ export const PROJECTS_DATA = [
   },
 
   {
-  id: 6,
-  title: "Tiffin Treat – Offline Food Ordering App",
-  category: "Android Development",
-  img: "https://streamable.com/lpgiqn",
-  thumbnail: "https://appinventiv.com/wp-content/uploads/2023/12/Unveiling-the-taste-of-success-in-food-delivery-app-development-%E2%80%93-3-business-case-studies.webp",
-  github: "https://github.com/nishilraiyarela/Tiffin-Treat-Android-Java",
-  description:
-    "Developed an offline food ordering simulation app using Java and Android SDK with SQLite for local data storage. Implemented menu browsing, cart management, and order placement features to mimic a real-world food ordering system.\n\n" +
-    "Tech: Java, Android SDK, SQLite, XML\n" +
-    "Expertise: Local database management, UI design, activity lifecycle handling",
+    id: 8,
+    title: "Tiffin Treat – Offline Food Ordering App",
+    category: "Android Development",
+    img: "https://streamable.com/lpgiqn",
+    thumbnail: "https://appinventiv.com/wp-content/uploads/2023/12/Unveiling-the-taste-of-success-in-food-delivery-app-development-%E2%80%93-3-business-case-studies.webp",
+    github: "https://github.com/nishilraiyarela/Tiffin-Treat-Android-Java",
+    description:
+      "Developed an offline food ordering simulation app using Java and Android SDK with SQLite for local data storage. Implemented menu browsing, cart management, and order placement features to mimic a real-world food ordering system.\n\n" +
+      "Tech: Java, Android SDK, SQLite, XML\n" +
+      "Expertise: Local database management, UI design, activity lifecycle handling",
  },
 
 
