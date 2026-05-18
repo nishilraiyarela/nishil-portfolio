@@ -10,12 +10,9 @@ export const PROJECTS_DATA = [
     thumbnail: "https://github.com/nishilraiyarela/Strom-Chaser-Appl/raw/master/docs/dashboard.png",
     github: "https://github.com/nishilraiyarela/Strom-Chaser-Appl",
     description:
-      "Built a native Android field companion app for storm chasers and outdoor adventurers to monitor live weather conditions, review 5-day forecasts, and document storm events in the field.\n\n" +
-      "Integrated Open-Meteo APIs with Retrofit and Coroutines to fetch location-based weather data, including temperature, wind speed, precipitation, forecast conditions, and dynamic weather codes.\n\n" +
-      "Implemented storm event logging with camera capture, GPS coordinates, notes, timestamps, FileProvider image handling, and local Room Database persistence.\n\n" +
-      "Added Google Maps visualization for saved storm observations using latitude and longitude markers, along with dark mode, pull-to-refresh, skeleton loading states, and weather-aware UI cards.\n\n" +
-      "Tech: Kotlin, XML, Android SDK, MVVM, Room, Retrofit, Google Maps SDK, Open-Meteo API, Coroutines, LiveData\n" +
-      "Expertise: Native Android development, API integration, local persistence, geolocation, camera workflows, map visualization, MVVM architecture",
+      "Built a native Android storm-tracking companion app with live weather updates, 5-day forecasts, GPS-based storm logging, camera capture, and map visualization for field observations.\n\n" +
+      "Tech: Kotlin, XML, Android SDK, MVVM, Room, Retrofit, Google Maps SDK, Open-Meteo API\n" +
+      "Expertise: Weather API integration, geolocation, offline persistence, camera workflows, map-based UI",
   },
 
   {
@@ -23,14 +20,12 @@ export const PROJECTS_DATA = [
     title: "6ixBlock - Toronto Community Board App",
     category: "Android + Firebase Development",
     img: "https://github.com/nishilraiyarela/6ixBlock/blob/main/docs/screenshots/dark-feed.png",
-    thumbnail: "https://github.com/nishilraiyarela/6ixBlock/blob/main/docs/screenshots/dark-feed.png",
+    thumbnail: "https://github.com/nishilraiyarela/6ixBlock/blob/main/docs/screenshots/dark-feed.png?raw=true",
     github: "https://github.com/nishilraiyarela/6ixBlock",
     description:
-      "Built a Toronto-based native Android community board app where users can create location-tagged posts, browse nearby updates, comment, like, save posts, and view real-time activity notifications.\n\n" +
-      "Implemented MVVM architecture with clean separation across UI, domain, data, and core layers, using repository interfaces, use cases, domain models, Firebase integration, and Room-based local caching.\n\n" +
-      "Added Google Maps integration with category-based pins, Fused Location Provider support, light/dark mode, profile management, saved posts, drafts, and Firestore listeners for live feed, likes, comments, and notification badge updates.\n\n" +
-      "Tech: Kotlin, XML, Android SDK, Firebase Auth, Cloud Firestore, Room, Google Maps SDK, Fused Location Provider, MVVM\n" +
-      "Expertise: Native Android development, real-time Firebase data, location-aware apps, clean architecture, Room caching, map-based UX",
+      "Built a Toronto-focused Android community board app where users can share location-tagged posts, explore nearby updates, interact in real time, and manage saved posts, drafts, and profiles.\n\n" +
+      "Tech: Kotlin, XML, Android SDK, Firebase Auth, Cloud Firestore, Room, Google Maps SDK, MVVM\n" +
+      "Expertise: Firebase real-time data, location-aware features, clean architecture, Room caching, map-based UX",
  },
 
   {
