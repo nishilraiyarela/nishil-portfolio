@@ -23,7 +23,7 @@ export const PROJECTS_DATA = [
     title: "6ixBlock - Toronto Community Board App",
     category: "Android + Firebase Development",
     img: "https://github.com/nishilraiyarela/6ixBlock/blob/main/docs/screenshots/dark-feed.png",
-    thumbnail: "https://github.com/nishilraiyarela/Strom-Chaser-Appl/raw/master/docs/dashboard.png",
+    thumbnail: "https://github.com/nishilraiyarela/6ixBlock/blob/main/docs/screenshots/dark-feed.png",
     github: "https://github.com/nishilraiyarela/6ixBlock",
     description:
       "Built a Toronto-based native Android community board app where users can create location-tagged posts, browse nearby updates, comment, like, save posts, and view real-time activity notifications.\n\n" +
